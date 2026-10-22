@@ -1,6 +1,6 @@
 ﻿<div align="center">
 
-<a href="https://rishikpamuru.github.io"><img src="assets/banner.svg?v=3" alt="Rishik Pamuru. I build AI apps that actually ship." width="100%"/></a>
+<a href="https://rishikpamuru.github.io"><img src="assets/banner-wild.svg" alt="Rishik Pamuru. Ideas that shouldn't work. Working." width="100%"/></a>
 
 <br/>
 
@@ -36,4 +36,5 @@
 [Lunar Lander RL](https://github.com/Rishikpamuru/LunarLandingRL) &nbsp;·&nbsp; [Geometry Dash RL](https://github.com/Rishikpamuru/Geomtry-Dash-Rl) &nbsp;·&nbsp; [Plant Disease Detection](https://github.com/Rishikpamuru/Plant-Disease-Detection) &nbsp;·&nbsp; [Sales Prediction](https://github.com/Rishikpamuru/Sales-Pred)
 
 <sub>TypeScript · JavaScript · React · React Native · Node.js · Express · Python · PyTorch · Three.js · Prisma</sub>
+
 
