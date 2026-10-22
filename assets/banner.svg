@@ -27,12 +27,13 @@
 <g class="rise r2"><rect x="394" y="78" width="212" height="32" rx="5" fill="url(#pill)"/>
 <g transform="translate(410 83) scale(.62)"><path class="twinkle" fill="#fff" d="M12 2.6C12.55 2.6 12.88 3.15 13.08 4.7c.62 4.7 1.52 5.6 6.22 6.22 1.55.2 2.1.53 2.1 1.08s-.55.88-2.1 1.08c-4.7.62-5.6 1.52-6.22 6.22-.2 1.55-.53 2.1-1.08 2.1s-.88-.55-1.08-2.1c-.62-4.7-1.52-5.6-6.22-6.22C3.15 12.88 2.6 12.55 2.6 12s.55-.88 2.1-1.08c4.7-.62 5.6-1.52 6.22-6.22C11.12 3.15 11.45 2.6 12 2.6Z"/></g>
 <text class="b" x="436" y="98">Developer · Frisco, Texas</text></g>
-<text class="h" x="500" y="168" text-anchor="middle">I build <tspan class="e">AI apps</tspan> that actually ship.</text>
-<text class="s" x="500" y="212" text-anchor="middle">Mobile apps, web platforms and machine learning.</text>
+<text class="h" x="500" y="168" text-anchor="middle">Wild <tspan class="e">ideas,</tspan> built for real.</text>
+<text class="s" x="500" y="212" text-anchor="middle">Anonymous whistleblowing. Face-priced menus. AI that rates your rizz.</text>
 <text class="s" x="500" y="236" text-anchor="middle">React · React Native · Node · Python · ML</text>
 <rect class="sweep" x="0" y="298" width="320" height="2" fill="url(#shine)"/>
 </g>
 <rect x=".5" y=".5" width="999" height="299" rx="15.5" fill="none" stroke="#fff" stroke-opacity=".14"/>
 </svg>
+
 
 
