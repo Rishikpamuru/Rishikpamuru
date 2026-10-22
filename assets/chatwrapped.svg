@@ -1,0 +1,29 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="420" height="150" viewBox="0 0 420 150" role="img" aria-label="ChatWrapped">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a855f7"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+<clipPath id="c"><rect width="420" height="150" rx="14"/></clipPath>
+</defs>
+<style>
+.t{font:700 21px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#f0f6fc}
+.d{font:400 13px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#9da7b3}
+.k{font:700 10px 'Segoe UI',Helvetica,Arial,sans-serif;letter-spacing:1.6px;fill:#a855f7}
+.bar{animation:slide 3.2s ease-in-out infinite alternate}
+.dot{animation:pulse 2s ease-in-out infinite}
+.glow{animation:drift 6s ease-in-out infinite alternate}
+@keyframes slide{from{transform:translateX(-90px)}to{transform:translateX(0)}}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+@keyframes drift{from{transform:translate(0,0)}to{transform:translate(-30px,18px)}}
+</style>
+<g clip-path="url(#c)">
+<rect width="420" height="150" fill="url(#bg)"/>
+<circle class="glow" cx="400" cy="20" r="90" fill="url(#g)" opacity=".16"/>
+<rect class="bar" x="0" y="0" width="510" height="4" fill="url(#g)"/>
+<circle class="dot" cx="26" cy="34" r="4" fill="#a855f7"/>
+<text class="k" x="38" y="38">NODE / LLM</text>
+<text class="t" x="24" y="76">ChatWrapped</text>
+<text class="d" x="24" y="104">A &quot;Wrapped&quot; for your iMessages. Summarizes your</text>
+<text class="d" x="24" y="123">conversations with GPT-4o.</text>
+</g>
+<rect x=".5" y=".5" width="419" height="149" rx="13.5" fill="none" stroke="#30363d"/>
+</svg>
