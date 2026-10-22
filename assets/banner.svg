@@ -13,24 +13,26 @@
 .l{font:600 15px Inter,'Segoe UI',Helvetica,Arial,sans-serif;letter-spacing:-.4px;fill:#fff}
 .sweep{animation:sw 5s cubic-bezier(.4,0,.2,1) infinite}
 .twinkle{animation:tw 3.2s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
-.rise{animation:rise 1.2s cubic-bezier(.16,1,.3,1) both}
-.r2{animation-delay:.15s}.r3{animation-delay:.3s}.r4{animation-delay:.45s}
+
+
 @keyframes sw{0%{transform:translateX(-700px)}60%,100%{transform:translateX(1100px)}}
 @keyframes tw{0%,100%{opacity:.6;transform:scale(.85) rotate(0)}50%{opacity:1;transform:scale(1.15) rotate(12deg)}}
-@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+
 </style>
 <g clip-path="url(#c)">
 <rect width="1000" height="300" fill="#000"/>
 <rect width="1000" height="300" fill="url(#glow)"/>
 <g class="rise" fill="#fff"><g transform="translate(40 30) scale(.92) rotate(-30 12 12)"><circle cx="7.3" cy="3.2" r="1.45"/><rect x="5.5" y="4.7" width="3.6" height="14.6" rx="1.8"/><rect x="14.9" y="4.7" width="3.6" height="14.6" rx="1.8"/><circle cx="16.7" cy="20.8" r="1.45"/></g></g>
-<text class="l rise" x="68" y="47">Rishik<tspan fill-opacity=".6" font-weight="400"> Pamuru</tspan></text>
+<text class="l" x="68" y="47">Rishik<tspan fill-opacity=".6" font-weight="400"> Pamuru</tspan></text>
 <g class="rise r2"><rect x="394" y="78" width="212" height="32" rx="5" fill="url(#pill)"/>
-<path class="twinkle" transform="translate(410 83) scale(.62)" fill="#fff" d="M12 2.6C12.55 2.6 12.88 3.15 13.08 4.7c.62 4.7 1.52 5.6 6.22 6.22 1.55.2 2.1.53 2.1 1.08s-.55.88-2.1 1.08c-4.7.62-5.6 1.52-6.22 6.22-.2 1.55-.53 2.1-1.08 2.1s-.88-.55-1.08-2.1c-.62-4.7-1.52-5.6-6.22-6.22C3.15 12.88 2.6 12.55 2.6 12s.55-.88 2.1-1.08c4.7-.62 5.6-1.52 6.22-6.22C11.12 3.15 11.45 2.6 12 2.6Z"/>
+<g transform="translate(410 83) scale(.62)"><path class="twinkle" fill="#fff" d="M12 2.6C12.55 2.6 12.88 3.15 13.08 4.7c.62 4.7 1.52 5.6 6.22 6.22 1.55.2 2.1.53 2.1 1.08s-.55.88-2.1 1.08c-4.7.62-5.6 1.52-6.22 6.22-.2 1.55-.53 2.1-1.08 2.1s-.88-.55-1.08-2.1c-.62-4.7-1.52-5.6-6.22-6.22C3.15 12.88 2.6 12.55 2.6 12s.55-.88 2.1-1.08c4.7-.62 5.6-1.52 6.22-6.22C11.12 3.15 11.45 2.6 12 2.6Z"/></g>
 <text class="b" x="436" y="98">Developer · Frisco, Texas</text></g>
-<text class="h rise r3" x="500" y="168" text-anchor="middle">I build <tspan class="e">AI apps</tspan> that actually ship.</text>
-<text class="s rise r4" x="500" y="212" text-anchor="middle">Mobile apps, web platforms and machine learning.</text>
-<text class="s rise r4" x="500" y="236" text-anchor="middle">React · React Native · Node · Python · ML</text>
+<text class="h" x="500" y="168" text-anchor="middle">I build <tspan class="e">AI apps</tspan> that actually ship.</text>
+<text class="s" x="500" y="212" text-anchor="middle">Mobile apps, web platforms and machine learning.</text>
+<text class="s" x="500" y="236" text-anchor="middle">React · React Native · Node · Python · ML</text>
 <rect class="sweep" x="0" y="298" width="320" height="2" fill="url(#shine)"/>
 </g>
 <rect x=".5" y=".5" width="999" height="299" rx="15.5" fill="none" stroke="#fff" stroke-opacity=".14"/>
 </svg>
+
+
